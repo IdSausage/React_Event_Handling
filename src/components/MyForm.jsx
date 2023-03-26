@@ -42,31 +42,31 @@ function MyForm()
     return(
         <form onSubmit={HandleSubmit}>
             
-            <label >Email Address: 
+            <label style={{color: "white"}}>Email Address: 
             <input type="email" placeholder="Enter Email" pattern = "^[a-zA-Z\@]*$" value={email} onChange={ChangeEmail} required />
             </label>
 
             <br />
 
-            <label >Name: 
+            <label style={{color: "white"}}>Name: 
             <input type="text" placeholder="Enter Firstname" pattern = "^[a-zA-Z ]*$" value={name} onChange={ChangeName} required />
             </label>
 
             <br />
 
-            <label >LastName: 
+            <label style={{color: "white"}}>LastName: 
             <input type="text" placeholder="Enter Lastname" pattern = "^[a-zA-Z ]*$" value={lastname} onChange={ChangeLastName} required />
             </label>
 
             <br />
 
-            <label >Phone Number: 
+            <label style={{color: "white"}}>Phone Number: 
             <input type="tel" placeholder="Enter Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value={phoneNumber} onChange={ChangePhoneNumber} required />
             </label>
 
             <br />
 
-            <label >Password: 
+            <label style={{color: "white"}}>Password: 
             <input type="password" placeholder="Enter Password" value={password} onChange={ChangePassword} required />
             </label>
 
